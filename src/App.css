@@ -14,9 +14,6 @@
 #ECF39E
 
 */
-div {
-  box-sizing: content-box;
-}
 #root {	
   /*display: flex;*/
   width: 100%;
@@ -24,95 +21,4 @@ div {
   margin: 0;
   padding: 0;
   background-color: #ECF39E;
-}
-#caja-login {
-  width: 100%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #ECF39E;
-}
-#caja-logo {
-  width: 50%;
-  height: 9rem;
-  /*border-radius: 10px;
-  border: solid 1px #132A13;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-#caja-form {
-  width: 35%;
-  height: 15rem;
-  border-radius: 10px;
-  /* border: solid 1px #132A13; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(49, 87, 44, 0.3);
-}
-#caja-form button {
-  background-color: #132A13;
-  color: #ECF39E;
-  margin-bottom: 1rem;
-}
-#caja-form button:hover {
-  background-color: #31572C;
-}
-#caja-footer {
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #90A955;
-}
-.cajita-form { 
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  color: #132A13;
-  font-weight: bold;
-}
-.cajita-form label {
-  margin-right: 1rem;
-}
-.cajita-form input {
-  background-color: #90A955;
-  border-radius: 8px
-}
-.cajita-form input::placeholder {
-  color: #132A13; /* Puedes ajustar el color según tus preferencias */
-}
-#caja-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#caja-redes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50%;
-  padding: 0.2rem;
-
-}
-#caja-texto-footer {
-  color: #132A13;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 15px;
-  padding: 0;
-}
-.social-icon {
-  font-size: 20px;  /* Adjust as needed */
-  color: #132A13; /* Optional color */
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
