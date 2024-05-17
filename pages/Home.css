@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Mac';
+    src: url('../src/fonts/MacType.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+#header {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #90A955;
+}
+#nav-box {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-box img {
+    margin: 0.1rem;
+
+}
+#center-box {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center-box{
+    font-family: 'Mac';
+    color: #132A13;
+}
+#botonera-box{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+#botonera {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#botonera button {
+    background-color: #132A13;
+    color: #ECF39E;
+    margin-bottom: 1rem;
+  }
+  #botonera button:hover {
+    background-color: #31572C;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#caja-home{
+    width: 100%;
+    height: 78%;
+}
+
+#caja-footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #90A955;
+  }
+  #caja-redes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50%;
+    padding: 0.2rem;
+  
+  }
+  #caja-texto-footer {
+    color: #132A13;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 15px;
+    padding: 0;
+  }
+  .social-icon {
+    font-size: 20px;  /* Adjust as needed */
+    color: #132A13; /* Optional color */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
