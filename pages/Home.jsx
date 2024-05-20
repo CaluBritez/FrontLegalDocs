@@ -14,7 +14,7 @@ function Home() {
             <div id='nav-box'>
                 <img src={logo} id="logo" alt="" />
                 <div id='center-box'>
-                    <h3>Tu Estudio Juridico online</h3>
+                    <h3>Tu Estudio Jurídico online</h3>
                 </div>
                 <div id='botonera-box'>
                     <div id='botonera'>
@@ -26,7 +26,18 @@ function Home() {
             </div>
             
         </div>
-        <div id='caja-home'></div>
+
+        <div id='caja-home'>
+            <div id='caja-center'>
+                <div id='caja-imagen-cuerpo'>
+                    <img src="./src/assets/justice.png" alt="" />
+                </div>
+                <div id='caja-text-legaldocs'>
+                    <h1>LegalDocs</h1>
+                    <p>LegalDocs es el sistema de gestión jurídica más difundido de la República Argentina, con una trayectoria de más de 34 años sirviendo en estudios jurídicos, asesorías letradas de bancos, empresas públicas y privadas, municipalidades, fiscalías de estado y numerosos organismos estatales. Se adapta a toda clase de organización; estudios unipersonales, medianos y grandes lo han usado ya por muchísimos años en forma ininterrumpida y sabiendo que nuestro equipo trabaja constantemente para hacerlo evolucionar.</p>
+                </div>
+            </div>
+        </div>
 
         <div id='caja-footer'>
             <div id='caja-redes'>

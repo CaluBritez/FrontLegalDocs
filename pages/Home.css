@@ -32,7 +32,6 @@
     align-items: center;
 }
 #center-box{
-    font-family: 'Mac';
     color: #132A13;
 }
 #botonera-box{
@@ -56,27 +55,61 @@
     background-color: #31572C;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #caja-home{
     width: 100%;
-    height: 78%;
+    /*height: 78%;*/
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
 }
+
+#caja-center {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#caja-imagen-cuerpo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: red;*/
+}
+#caja-imagen-cuerpo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#caja-text-legaldocs {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#caja-text-legaldocs h1 {
+    font-family: 'Mac';
+    color: #31572C;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+#caja-text-legaldocs p {
+    /*padding: 2.2rem;*/
+    padding-bottom: 2.2rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+
+    color: #31572C;
+    font-size: 1rem;
+}
+
 
 #caja-footer {
     width: 100%;
