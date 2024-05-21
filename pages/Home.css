@@ -109,6 +109,59 @@
     color: #31572C;
     font-size: 1rem;
 }
+#caja-abogados {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ECF39E;
+}
+#caja-center-abogados {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #31572C;
+}
+.contenido-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(49, 87, 44, 0.1);
+    border-radius: 15px;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#img-abogada{
+    width: 15rem;
+    border-radius: 15px; /* Ajusta este valor para más o menos redondez */
+    border: 2px solid #31572C; /* Cambia el color y el grosor del borde */
+    
+}
+#caja-center-abogados h2{
+    font-family: 'Mac';
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+#caja-center-abogados ul{
+    margin-top: 0;
+    margin-bottom: 1.8rem;
+}
+#text-empr{
+    width: 50%;
+    margin-top: 0;
+}
+
+
+
 
 
 #caja-footer {
