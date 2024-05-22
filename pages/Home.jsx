@@ -1,37 +1,19 @@
 import './Home.css'
-import logo from '../src/assets/LogoLegalDocs.png'
-import { FaXTwitter } from "react-icons/fa6";
-import { IoLogoInstagram } from "react-icons/io5";
-import { FaFacebookSquare } from "react-icons/fa";
-import { CgMail } from "react-icons/cg";
-import { FaWhatsapp } from "react-icons/fa";
+import imgprincipal from '../src/assets/justice.png';
 import justice from '../src/assets/abo.jpg';
-import empresa from '../src/assets/empresa.jpg'
-import judi from '../src/assets/judiciales.jpg'
+import empresa from '../src/assets/empresa.jpg';
+import judi from '../src/assets/judiciales.jpg';
+import Header from '../src/components/Header.jsx';
+import Footer from '../src/components/Footer.jsx';
 
 function Home() {
-
     return (
       <>
-        <div id='header'>
-            <div id='nav-box'>
-                <img src={logo} id="logo" alt="" />
-                <div id='center-box'>
-                    <h3>Tu Estudio Jurídico online</h3>
-                </div>
-                <div id='botonera'>
-                    <button >Ingresar</button>
-                    <button >Nosotros</button>
-                    <button >Contacto</button>
-                </div>
-                
-            </div>    
-        </div>
-
+        <Header />
         <div id='caja-home'>
             <div id='caja-center'>
                 <div id='caja-imagen-cuerpo'>
-                    <img src="./src/assets/justice.png" alt="" />
+                    <img src={imgprincipal} alt="" />
                 </div>
                 <div id='caja-text-legaldocs'>
                     <h1>LegalDocs</h1>
@@ -39,7 +21,6 @@ function Home() {
                 </div>
             </div>
         </div>
-
         <div id='caja-clientes'>
             <div id='caja-center-clientes'>
                 <div className='contenido-card'>
@@ -90,20 +71,7 @@ function Home() {
                 </div>
             </div>
         </div>
-
-        <div id='caja-footer'>
-            <div id='caja-redes'>
-                <div className='social-icon'><FaXTwitter /></div>
-                <div className='social-icon'><IoLogoInstagram /></div>
-                <div className='social-icon'><FaFacebookSquare /></div>
-                <div className='social-icon'><CgMail /></div>
-                <div className='social-icon'><FaWhatsapp /></div>
-            </div>
-            <div id='caja-texto-footer'>
-                <p>© LegalDocs - Todos los derechos reservados.</p>
-            </div>
-        </div>      
-
+        <Footer />     
       </>
     )
   }
