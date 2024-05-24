@@ -108,3 +108,26 @@
     width: 100%;
     margin-top: 0;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+    #caja-center {
+        width: 90%;
+    }
+    #caja-center-clientes {
+        width: 90%;
+    }
+    .contenido-card{
+        width: 85%;
+    }
+}
+@media (max-width: 767px) {
+    #caja-center {
+        width: 100%;
+    }
+    #caja-center-clientes {
+        width: 100%;
+    }
+    .contenido-card{
+        width: 90%;
+    }
+}
+

@@ -1,7 +1,7 @@
 import './Home.css'
 import imgprincipal from '../src/assets/justice.png';
 import justice from '../src/assets/abo.jpg';
-import empresa from '../src/assets/empresa.jpg';
+import empresa from '../src/assets/edificios.jpg';
 import judi from '../src/assets/judiciales.jpg';
 import Header from '../src/components/Header.jsx';
 import Footer from '../src/components/Footer.jsx';
