@@ -57,6 +57,7 @@
   }
   #caja-form button:hover {
     background-color: #31572C;
+    border: 2px solid #ECF39E;
   }
   #caja-footer {
     width: 100%;

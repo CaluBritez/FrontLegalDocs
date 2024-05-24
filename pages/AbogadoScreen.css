@@ -1,0 +1,53 @@
+/* COLORES PALETA  
+#132A13
+#31572C
+#4F772D
+#90A955
+#ECF39E
+*/
+#caja-abo-screen {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+#cuerpo-abo-screen{
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#caja-izq {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    color: #31572C;
+    align-items: center;
+}
+.img-screen-abo{
+    width: 7rem;
+    margin-top: 3rem;
+    border: 2px solid #31572C; /* Cambia el color y el grosor del borde */
+    border-radius: 15px; /* Ajusta este valor para más o menos redondez */
+}
+.text-screen-abo {
+    margin-top: 0;
+}
+#caja-cen {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    color: #31572C;
+    align-items: center;
+}
+#caja-der {
+    width: 40%;
+    height: 100%;
+}
