@@ -22,7 +22,7 @@ function Login() {
                 <label htmlFor="">Contraseña</label>
                 <input type="text" placeholder='Ingrese su Contraseña' />
               </div>
-            <button>Ingresar</button>
+              <Link to="/HomeAbo"><button>Ingresar</button></Link>
             </form>
           </div>
         </div>

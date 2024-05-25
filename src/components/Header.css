@@ -1,3 +1,10 @@
+/* COLORES PALETA  
+#132A13
+#31572C
+#4F772D
+#90A955
+#ECF39E
+*/
 #header {
     width: 100%;
     display: flex;
@@ -32,7 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #31572C;
+    color: #132A13;
     font-weight: bold;
 }
 
