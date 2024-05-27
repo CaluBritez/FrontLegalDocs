@@ -7,6 +7,7 @@
 */
 #header {
     width: 100%;
+    height: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,15 +16,24 @@
     border-bottom: 2px solid #31572C;
 }
 #nav-box {
-    width: 70%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: yellow;
+}
+#caja-img-logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
 }
 #nav-box img {
     margin: 0.1rem;
-    width: 6rem;
+    width: 50%;
 }
 .hover-image {
     transition: transform 0.3s ease; /* Transición suave */
@@ -41,6 +51,7 @@
     align-items: center;
     color: #132A13;
     font-weight: bold;
+    background-color: purple;
 }
 
 #botonera {
@@ -49,6 +60,7 @@
     width: 40%;
     height: 100%;
     align-items: center;
+    background-color: red;
 }
 #botonera button {
     background-color: #132A13;

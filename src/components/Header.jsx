@@ -7,9 +7,11 @@ function Header() {
     return(
         <div id='header'>
             <div id='nav-box'>
-                <Link to="/">
-                    <img src={logo} id="logo" className="hover-image" alt="" />
-                </Link>
+                <div id='caja-img-logo'>
+                    <Link to="/">
+                        <img src={logo} id="logo" className="hover-image" alt="" />
+                    </Link>
+                </div>
                 <div id='center-box'>
                     <h3>Tu Estudio Jurídico online</h3>
                 </div>
