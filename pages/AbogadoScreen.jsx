@@ -7,6 +7,7 @@ import imgEscribir from '../src/assets/redactar.jpg';
 import { FaSearch } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import MyCalendar from '../src/components/Calendar.jsx';
+import Card from '../src/components/Card.jsx';
 
 function AbogadoScreen(){
     return(
@@ -15,28 +16,26 @@ function AbogadoScreen(){
             <Header />
             <div id='cuerpo-abo-screen'>
                 <div id='caja-izq'>
-                    <h3>Clientes</h3>
-                    <div id='caja-casos'>
-                        <div id='buscador-casos'>
-                            <input type="text" />
-                            <button><FaSearch /></button>
+                    <div id='contenido-caja-izq'>
+                        <h3>Clientes</h3>
+                        <div id='caja-casos'>
+                            <div id='buscador-casos'>
+                                <input type="text" />
+                                <button><FaSearch /></button>
+                            </div>
+                            <div id='lista-casos'></div>
                         </div>
-                        <div id='lista-casos'></div>
                         <button id='boton-agregar'>Añadir Cliente</button>
-                        
                     </div>
                 </div>
                 <div id='caja-cen'>
-                    <Link to="/"><img src={imgDoqui} alt="" className='img-screen-abo'/></Link>
-                    <Link to="/"><h2 className='text-screen-abo'>Consultas con Doqui</h2></Link>
-                    <Link to="/"><img src={imgEscribir} alt="" className='img-screen-abo'/></Link>
-                    <Link to="/"><h2 className='text-screen-abo'>Redactar</h2></Link>
-                    <Link to="/"><img src={imgArchivos} alt="" className='img-screen-abo'/></Link>
-                    <Link to="/"><h2 className='text-screen-abo'>Archivos</h2></Link>
+                    <Card img={imgDoqui} title="Consultas con Doqui"/>
+                    <Card img={imgEscribir} title="Redactar"/>
+                    <Card img={imgArchivos} title="Archivos"/>
                 </div>
                 <div id='caja-der'>
                     <MyCalendar />
-                    <p>En la fecha de hoy no hay existen actividades pendientes</p>
+                    <p>En la fecha de hoy no existen actividades pendientes</p>
                     <p>Proxima Actividad: 12/06/2024 Juicio presencial con Don Ramon</p>
                     <button id='boton-agregar-tarea'>Añadir Actividad</button>
                 </div>

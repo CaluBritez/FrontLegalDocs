@@ -1,0 +1,54 @@
+.img-screen-abo{
+    width: 7rem;
+    margin-top: 1rem;
+    border: 2px solid #31572C; /* Cambia el color y el grosor del borde */
+    border-radius: 15px; /* Ajusta este valor para más o menos redondez */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+.img-screen-abo:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al hacer hover */
+}
+.text-screen-abo {
+    margin-top: 0;
+    color: #31572C;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.text-screen-abo:hover {
+    color: #4F772D
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    color: #31572C;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+@media (min-width: 768px) and (max-width: 1140px) {
+    .card{
+        height: auto;
+    }
+    .text-screen-abo {
+        font-size: 1rem;
+    }
+    .img-screen-abo{
+        width: 6rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .card{
+        width: 30%;
+        height: auto;
+        margin: 0.1rem;
+    }
+    .text-screen-abo {
+        font-size: 0.8rem;
+    }
+    .img-screen-abo{
+        width: 5rem;
+    }
+}

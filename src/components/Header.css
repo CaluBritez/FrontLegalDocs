@@ -7,7 +7,7 @@
 */
 #header {
     width: 100%;
-    height: 12%;
+    height: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,19 +21,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: yellow;
 }
 #caja-img-logo {
     width: 30%;
     height: 100%;
+    /*
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
+    position: relative; /* Necesario para el posicionamiento absoluto si es necesario */
+    display: flex;
+    justify-content: center;
 }
-#nav-box img {
+#caja-img-logo img {
     margin: 0.1rem;
-    width: 50%;
+    max-width: 100%; /* La imagen no será más ancha que el contenedor */
+    max-height: 100%; /* La imagen no será más alta que el contenedor */
+    width: auto; /* Mantiene la proporción de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 .hover-image {
     transition: transform 0.3s ease; /* Transición suave */
@@ -51,7 +58,6 @@
     align-items: center;
     color: #132A13;
     font-weight: bold;
-    background-color: purple;
 }
 
 #botonera {
@@ -60,7 +66,6 @@
     width: 40%;
     height: 100%;
     align-items: center;
-    background-color: red;
 }
 #botonera button {
     background-color: #132A13;
@@ -71,15 +76,15 @@
     background-color: #31572C;
     border: 2px solid #ECF39E;
   }
-  @media (min-width: 993px) and (max-width: 1145px) {
-    #botonera button {
-      width: 5rem;
-      font-size: 0.8rem;
-      margin-bottom: 0;
-    }
-    #center-box {
-      text-align: center;
-    }
+@media (min-width: 993px) and (max-width: 1145px) {
+  #botonera button {
+    width: 5rem;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  #center-box {
+    text-align: center;
+  }
 }
 @media (min-width: 906px) and (max-width: 992px) {
   #botonera button {
@@ -93,7 +98,6 @@
   }
 }
 @media (min-width: 768px) and (max-width: 905px) {
-
   #botonera button {
     width: 5rem;
     font-size: 0.8rem;
@@ -105,14 +109,10 @@
   }
   #nav-box {
     width: 100%;
-    height: 100%;
-    display: flex;
     justify-content:space-around;
-    align-items: center;
   }
   #nav-box img {
     margin: 0.1rem;
-    width: 5rem;
   }
 }
 @media (max-width: 767px) {
@@ -120,7 +120,7 @@
     width: 70%;
   }
   #botonera button {
-    width: 5rem;
+    width: 6rem;
     font-size: 0.8rem;
     margin-bottom: 0;
   }
@@ -131,14 +131,10 @@
   }
   #nav-box {
     width: 100%;
-    height: 100%;
-    display: flex;
     justify-content:space-around;
-    align-items: center;
+
   }
   #nav-box img {
     margin: 0.1rem;
-    width: 5rem;
   }
-
 }
